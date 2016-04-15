@@ -1,0 +1,10 @@
+<ion-view>
+    <ion-nav-title>{{ comicDetail.comic.title }}</ion-nav-title>
+    <ion-content class="padding">
+        <p>{{ comicDetail.comic.description }}</p>
+
+        <div class="list">
+            <div class="item" ng-repeat="character in comicDetail.comic.characters">{{ character }}</div>
+        </div>
+    </ion-content>
+</ion-view>

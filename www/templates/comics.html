@@ -1,0 +1,9 @@
+<ion-view view-title="Comics">
+    <ion-content class="padding">
+        <div class="list">
+            <a ng-href="#/comics/{{ comic.id }}" class="item" ng-repeat="comic in comics.comics">
+                {{ comic.title }}
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
